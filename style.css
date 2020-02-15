@@ -1,0 +1,166 @@
+
+body {
+	background-color: #f1f3f4;
+	font-family: courier;
+	font-size: 24px;
+	letter-spacing: 0.01px;
+	text-align: center;
+	color: white;
+
+}
+
+h1 {
+	font-family: 'Alegreya SC', serif;
+	font-weight: 70;
+	font-size: 60px;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+	color: red;
+	text-align-last: center;
+	background-color: white;
+	text-shadow: 
+	0 1px 0px #378ab4, 
+	1px 0 0px #5dabcd, 
+	1px 2px 1px #378ab4, 
+	2px 1px 1px #5dabcd, 
+	2px 3px 2px #378ab4, 
+	3px 2px 2px #5dabcd, 
+	3px 4px 2px #378ab4, 
+	4px 3px 3px #5dabcd, 
+	4px 5px 3px #378ab4, 
+	5px 4px 2px #5dabcd, 
+	5px 6px 2px #378ab4, 
+	6px 5px 2px #5dabcd, 
+	6px 7px 1px #378ab4, 
+	7px 6px 1px #5dabcd, 
+	7px 8px 0px #378ab4, 
+	8px 7px 0px #5dabcd;
+
+}
+
+	.h1p2 {
+			font-size: 20px;
+		}
+
+
+h2 {
+	font-family: 'Alegreya SC', serif;
+	font-size: 50px;
+	font-weight: 300;
+	background-color: white;
+	color: red;
+	text-shadow: 
+	0px 1px 0px #378ab4, 
+	1px 0 0px #5dabcd,
+	1px 2px 1px #378ab4, 
+	2px 1px 1px #5dabcd, 
+	2px 3px 2px #378ab4, 
+	3px 2px 2px #5dabcd, 
+	3px 4px 2px #378ab4, 
+	4px 3px 3px #5dabcd, 
+	4px 5px 3px #378ab4, 
+	5px 4px 2px #5dabcd;
+}
+
+img {
+	text-align-last: center;
+	size: 200px;
+	width: 280px;
+}
+
+p {
+	font-family: 'Spectral', serif;
+	padding-bottom: 10px;
+}
+
+
+a {
+	transition: color 0.2s ease;
+	text-decoration: none;
+	font-style: italic;
+	font-weight: 50;
+	size: 60px;
+}
+
+	a:hover {
+ 		font-weight: bold;
+}
+/*Design boxes*/
+
+
+
+	.Box1 {
+		color: black;
+		background-color: white;
+		border-radius: 12px;
+		padding: 60px;
+		box-shadow: 1px 1px 40px #5dabcd;
+}
+
+
+	.Box2 {
+		color: black;
+		background-color: white;
+		border-radius: 10px;
+		padding: 60px;
+		margin: 60px;
+		box-shadow: 1px 1px 20px red;
+	}
+
+	.img-circle {
+		border-radius: 50%;
+}
+
+	.bouton {
+		padding: 15px 20px;
+		background: #5dabcd;
+		border-radius: 5px;
+		color: red;
+		box-shadow: 1px 1px 20px black;
+}
+	.bouton:hover {
+		color: #5dabcd;
+		background-color: red;
+		box-shadow: 1px 1px 20px black;
+}
+
+	.Icon {
+		list-style: none;
+}
+
+	.Icon li {
+		display: inline;
+		padding: 80px;
+}
+
+	.Icon i {
+		font-size: 80px;
+		color: #5dabcd;
+}
+
+	.Icon i:hover {
+		color: red;
+}
+
+	.container {
+  		width: 1000px;
+  		margin: 40px auto;
+}
+
+		@media (max-width: 960px) {
+		  .container {
+		    width: 700px;
+		  }
+		}
+		@media (max-width: 720px) {
+		  .container {
+		    width: 500px;
+		  }
+		}
+		@media (max-width: 540px) {
+		  .container {
+		    width: 300px;
+		  }
+}
